@@ -5,3 +5,45 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+/* shared styles start */
+
+.flex{
+    display: flex;
+}
+.dark1{
+    color: #131313;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* shared styles end */
+
+
+.nav-bar{
+    justify-content: space-between;
+}
+.navigation li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+.navigation li a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-bar , .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
