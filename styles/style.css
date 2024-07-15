@@ -35,6 +35,10 @@ main > section{
 .bg-color{
     background-color: rgba(255, 144, 14, 0.1);
 }
+.section-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 /* shared styles end */
 
 /* header section start */
@@ -156,3 +160,69 @@ main > section{
     }
 }
 /* our features section end  */
+/* features section start */
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+.features-heading{
+    border-left: 5px solid #FF900E;
+    padding-left: 1.25rem;
+}
+.features-images{
+    max-width: 708px;
+    max-height: 982px;
+    z-index: -9;
+    position: relative;
+}
+.features-images img{
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -9;
+}
+.feature-card{
+    margin-bottom: 1.25rem;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.feature-card h4{
+    font-weight: 600;
+    color: #131313;
+    font-size: 1.25rem;
+    margin: 0;
+    padding-top: 20px;
+}
+.feature-card p{
+    font-size: 1rem;
+    color: #727272;
+    margin: 0;
+    margin-top: 10px;
+}
+.card-content{
+    margin: 30px 42px 30px 30px;
+}
+.ten-year-exp > h3, p{
+    margin: 0;
+    padding: 0;
+}
+.ten-year-exp{
+    background-color: #FF900E;
+    color: white;
+    max-width: 342px;
+    max-height: 200px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: -77px;
+    left: -92px;
+}
+.ten-year-exp h3{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.ten-year-exp p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* features section end */
