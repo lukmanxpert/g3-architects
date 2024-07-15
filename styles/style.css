@@ -18,6 +18,10 @@ main > section{
     max-width: 1440px;
     margin: 100px auto;
 }
+footer > section{
+    max-width: 1440px;
+    margin: 100px auto;
+}
 /* shared styles start */
 
 .flex{
@@ -262,3 +266,35 @@ main > section{
 }
 
 /* some facts ends */
+/* our sponsore start */
+
+.our-sponsore{
+    text-align: center;
+}
+.our-sponsore h3{
+    margin: 0;
+}
+.our-sponsore p{
+    font-size: 1rem;
+    color: #727272;
+    margin: 10px 0;
+}
+.our-sponsores-images{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    gap: 20px;
+    filter: grayscale(1);
+}
+/* our sponsore ends */
+/* fooeter start */
+
+.footer{
+    background-color: #FFF4E7;
+    text-align: center;
+}
+.footer p{
+    padding: 40px 410px;
+}
+
+/* fooeter end */
