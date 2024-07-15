@@ -14,6 +14,10 @@
 body{
     margin: 0;
 }
+main > section{
+    max-width: 1440px;
+    margin: 100px auto;
+}
 /* shared styles start */
 
 .flex{
@@ -69,7 +73,7 @@ body{
     font-size: 1rem;
     margin-bottom: 2rem;
 }
-.banner-content button{
+.btn{
     font-size: 1.3rem;
     font-weight: 600;
     color: white;
@@ -81,6 +85,7 @@ body{
 }
 .banner-image img{
     max-width: 100%;
+    margin-bottom: 45px;
 }
 
 /* header responsive */
@@ -101,3 +106,37 @@ body{
 }
 
 /* header section end */
+/* our features section start  */
+
+.our-features{
+    display: flex;
+    align-items: center;
+}
+.features-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.features-content{
+    padding-left: 4.3rem;
+    max-width: 530px;
+}
+.features-content h3{
+    font-size: 2.8rem;
+}
+#quick-list{
+    font-weight: 500;
+}
+#of-our{
+    font-weight: 700;
+}
+#features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.features-content p{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+/* our features section end  */
